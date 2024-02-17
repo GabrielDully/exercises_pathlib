@@ -31,11 +31,3 @@ def directory_size_calculator(directory_str = None):
         return f"Directory '{directory_str}' does not exist in system."
     
     return recursive_directory_size_calculator(directory_path)
-
-
-
-print(directory_size_calculator('Fraction'))
-
-
-
-    
