@@ -17,10 +17,6 @@ def recursive_directory_size_calculator(directory):
     
     return size
 
-    
-    
-
-
 def directory_size_calculator(directory_str = None):
     
     if directory_str == None:
@@ -31,3 +27,4 @@ def directory_size_calculator(directory_str = None):
         return f"Directory '{directory_str}' does not exist in system."
     
     return recursive_directory_size_calculator(directory_path)
+    
